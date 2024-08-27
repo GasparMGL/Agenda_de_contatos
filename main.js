@@ -2,12 +2,11 @@ const form = document.getElementById('form-agenda');
 
 let linhas = '';
 let contador = 1 ;
+
 form.addEventListener('submit', function(e){
     e.preventDefault();
     const inputNome = document.getElementById('nome-form');
     const inputTelefone = document.getElementById('telefone-form');
-
-
 
     let linha = '<tr>' ;
     linha += `<td>${inputNome.value}</td>`;
@@ -25,6 +24,4 @@ form.addEventListener('submit', function(e){
 
     corpoTabela.innerHTML = linhas ;
 
-
-    
 })

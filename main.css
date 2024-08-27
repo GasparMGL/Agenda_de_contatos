@@ -23,33 +23,31 @@ body {
     text-align: center;
     margin-bottom: 20px;
 }
-.cabecario h1{
+
+.cabecario h1 {
     color: #FFF7E8;
 }
 
 .formulario form {
     display: flex;
-    align-items: center; 
     justify-content: space-between;
+    align-items: center;
 }
 
 .coluna-entradas {
     display: flex;
     flex-direction: column;
     gap: 20px;
-
 }
 
 .entrada {
-    margin-left: 20px;
     display: flex;
     align-items: center;
-
 }
 
 .entrada h2 {
     color: #FFF7E8;
-    margin: 0; 
+    margin-right: 10px;
     width: 120px;
 }
 
@@ -57,13 +55,13 @@ body {
     border-radius: 8px;
     border: 2px solid black;
     padding: 10px;
-    width: 200px; 
+    width: 200px;
 }
 
 .coluna-botao-imagem {
     display: flex;
-    align-items: center; 
-    gap: 120px; 
+    align-items: center;
+    gap: 20px;
 }
 
 button {
@@ -77,7 +75,6 @@ button {
 
 form img {
     width: 150px;
-    margin-right: 50px;
 }
 
 .tabela {
@@ -86,27 +83,27 @@ form img {
 
 table {
     width: 100%;
-    border-collapse: separate;
-    margin-top: 20px;
+    border-collapse: collapse;
     background-color: #FFF7E8;
     border-radius: 30px;
     overflow: hidden;
-    border-spacing: 0; 
 }
 
 th, td {
     border: 1px solid #2E4E77;
     padding: 10px;
-    text-align: left;
+    text-align: center;
+}
+
+tfoot th {
+    text-align: center;
 }
 
 footer {
     padding: 16px 0;
+    text-align: center;
 }
 
 footer p {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-weight: 800;
 }
